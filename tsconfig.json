@@ -6,5 +6,5 @@
   "include": [
       "./packages/*/**.ts",
       "./packages/**/*/**.ts"
-  ]
+, "packages/ui/app/craco.config.js"  ]
 }
