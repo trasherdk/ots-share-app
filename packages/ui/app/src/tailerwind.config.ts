@@ -6,13 +6,18 @@ const config = {
       colors: {
         primary: {
           light: '#EAEDF6',
-          main: '#3041C7',
+          main: '#0c4a6e',
           dark: '#000320',
-          accent: '#0f30ab',
+          accent: '##0891b2',
+          red: '#b91c1c',
           'contrast-text': '#ffffff',
         },
       },
     },
+  },
+  fontFamily: {
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
   },
   variants: {
     extend: {},

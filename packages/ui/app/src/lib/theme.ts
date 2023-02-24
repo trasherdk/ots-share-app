@@ -8,13 +8,13 @@ const tailwindConfig = resolveConfig(tailwindConfigModule as any);
 const theme = createTheme({
   palette: {
     primary: {
-      main: tailwindConfig.theme.colors.primary.light,
+      main: tailwindConfig.theme.colors.primary.main,
     },
     secondary: {
-      main: tailwindConfig.theme.colors.primary.dark,
+      main: tailwindConfig.theme.colors.primary.accent,
     },
     error: {
-      main: red.A400,
+      main: tailwindConfig.theme.colors.primary.red,
     },
   },
 });
