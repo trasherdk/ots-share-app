@@ -3,15 +3,15 @@ import tailwindConfigModule from '../tailerwind.config';
 
 import { createTheme } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
+const tailwindConfig = resolveConfig(tailwindConfigModule as any);
 
-// A custom theme for this app
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#556cd6',
+      main: tailwindConfig.theme.colors.primary.light,
     },
     secondary: {
-      main: '#19857b',
+      main: tailwindConfig.theme.colors.primary.dark,
     },
     error: {
       main: red.A400,
